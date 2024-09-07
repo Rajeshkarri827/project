@@ -239,6 +239,11 @@ form #button6:hover{
             padding-left: 50%;
             text-align: center;
         }
+        .nav {
+            width:100%;
+            display:flex;
+            justify-content: center;
+        }
         .nav nav a {
             margin-right: 2px;
             font-size: 10px;
@@ -250,6 +255,8 @@ form #button6:hover{
             flex-direction: column;
             align-items: center;
             width:auto;
+            margin:0 auto;
+            padding:0 10px;
         }
         .section1 {
             grid-template-columns: 1fr;
@@ -268,6 +275,7 @@ form #button6:hover{
         .section1 img {
             width: 100%;
             height: auto;
+            margin-top: 20px;
         }
         .item2, .item4, .item6, .item8, .item10 {
             width: 100%;
